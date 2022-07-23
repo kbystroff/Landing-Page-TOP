@@ -30,6 +30,7 @@ body {
 .header-links{
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: 200;
     
 }
 
@@ -67,6 +68,7 @@ body {
 .hero-subtext{
     color: #E5E7EB;
     font-size: 18px;
+    font-weight: 200;
 }
 
 .hero-button{
@@ -80,24 +82,46 @@ body {
     font-size: 15px;
 }
 
-.sign-up-button{
-    border-radius: 5px;
-    border: 2px solid white;
-    background-color: #3882F6;
-    color: white;
-    padding: 3px 10px;
-}
 .content-three{
     background-color: #3882F6;
     display: flex;
     padding: 20px 30px;
     border-radius: 10px; 
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+    
 }
 
+.sign-up-header{
+    font-size: 24px;
+    color: white;
+    font-weight:  900px;
+}
+
+.sign-up-subtext{
+    color: #E5E7EB;
+    font-weight: 300;
+}
+
+.sign-up-button{
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: #3882F6;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+    font-weight: 700;
+}
 
 
 .content-three-wrap{
     margin: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -146,15 +170,25 @@ body {
     font-style: italic;
     font-size: 36px;
     color: #1F2937;
-    padding: 120px;     
+    padding: 120px;    
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
 }
 
+.author{
+    margin-left: auto;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 500;
+}
 
+/*
 .content-two{
     display: flex;
     flex-direction:column;
     margin: auto;
-}
+} */
 
 
 
@@ -180,3 +214,4 @@ ul{
     gap: 16px;
     
 }
+
